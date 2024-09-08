@@ -8,11 +8,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class KafkaProducers {
 
+    private final String TOPIC_NAME = "project";
+
     @Bean
     CommandLineRunner commandLineRunner(KafkaTemplate<String, String> kafkaTemplate) {
         return args -> {
             for (int i = 0; i < 100; ++i){
-                kafkaTemplate.send("project", "yet another message " + i);
+                kafkaTemplate.send(TOPIC_NAME, "yet another message " + i);
             }
         };
     }
