@@ -24,3 +24,17 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+  producer:
+    image: producer:latest
+    container_name: producer-svc-container
+    ports:
+      - "9091:9091"
+    depends_on:
+      - broker
+  consumer:
+    image: consumer:latest
+    container_name: consumer-svc-container
+    ports:
+      - "9092:9092"
+    depends_on:
+      - broker

@@ -1,0 +1,16 @@
+POST http://localhost:9091/api/produce
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "msg": "yet another message from api",
+  "id": 1
+}
+
+<> 2024-09-08T174511.200.json
+
+###
+

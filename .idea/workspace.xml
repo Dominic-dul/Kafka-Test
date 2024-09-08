@@ -4,35 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59fd3877-74bf-4b4b-8160-aa9b7022039b" name="Changes" comment="docker compose for zookeeper and broker" />
+    <list default="true" id="d56c8a63-4aee-41ee-8521-5fb0125f9087" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kafka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/consumer/config/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/consumer/model/MyMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/consumer/service/KafkaConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2ln0ablcmVjZvPpLkcR3QubStLN" />
+  <component name="ProjectId" id="2ln7gxC8vVS0OcxkWCD0DS3wSUa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "kafka__with__docker",
-    "last_opened_file_path": "D:/git_sandbox/kafka/producer",
+    "last_opened_file_path": "D:/git_sandbox/kafka",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,52 +54,42 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\git_sandbox\kafka\consumer\src\main\java\com" />
+      <recent name="D:\git_sandbox\kafka\consumer" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.KafkaApplication">
+  <component name="RunManager" selected="HTTP Request.generated-requests | #1">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="KafkaApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="kafka" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kafka.KafkaApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
     </configuration>
-    <configuration name="KafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="kafka" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kafka.KafkaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="consumer/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="consumer/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.KafkaApplication (1)" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
-        <item itemvalue="Spring Boot.KafkaApplication (1)" />
-        <item itemvalue="HTTP Request.generated-requests | #1" />
-        <item itemvalue="Spring Boot.KafkaApplication (1)" />
+        <item itemvalue="Docker.consumer/Dockerfile" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="59fd3877-74bf-4b4b-8160-aa9b7022039b" name="Changes" comment="" />
-      <created>1725800599393</created>
+      <changelist id="d56c8a63-4aee-41ee-8521-5fb0125f9087" name="Changes" comment="" />
+      <created>1725804102299</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725800599393</updated>
-      <workItem from="1725800600768" duration="357000" />
+      <updated>1725804102299</updated>
+      <workItem from="1725804103453" duration="188000" />
+      <workItem from="1725806191584" duration="414000" />
     </task>
     <servers />
   </component>
